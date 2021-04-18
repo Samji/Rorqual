@@ -1,0 +1,30 @@
+# The Model View Controller (MVC) Pattern
+
+GET /about HTTP/1.1
+Host: 127.0.0.1
+
+# Routes
+Matchers for the URL that is requested
+
+GET for "/about"
+
+I see you requested "/about", I'll give that to the AboutController to handle
+
+## Models
+Database wrapper
+
+User
+* Query for records
+* wrap individual records
+
+## Views
+Your response body content
+* HTML
+* CSV
+* PDF
+* XML
+
+This is what gets back to the browser and gets displayed
+
+## Controllers
+Decide how to process a request and define a response
